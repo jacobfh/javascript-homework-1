@@ -5,6 +5,13 @@ var givenName = "Addison"
 // 2. Set candies equal to 20, people to 6, and leftover equal
 // to the remainder of dividing 20 by 6.
 
+var candies = 20
+var people = 6
+
+function leftover (){
+    return (candies % people)
+}
+
 // 3. Create a function called greeting that returns "Hello, <name>!",
 // where <name> is the name given as an argument to the function.
 
