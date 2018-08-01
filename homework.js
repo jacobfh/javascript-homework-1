@@ -33,7 +33,7 @@ function isOdd (number){
 // 5. Create a function called isEven that, given a number, will
 // return true if it is even and false if it is not.
 
-function isEven (number) {
+function isEven (number){
     if number % 2 === 0 {
         return true
 }   else {
@@ -44,7 +44,7 @@ function isEven (number) {
 // Fahrenheit temperature as an argument and returns the
 // temperature in Celsius.
 
-function fahrenheitToCelsius (temp) {
+function fahrenheitToCelsius (temp){
     return (temp - 32) * 5 / 9)
 }
 
@@ -52,7 +52,7 @@ function fahrenheitToCelsius (temp) {
 // Celsius temperature as an argument and returns the
 // temperature in Fahrenheit.
 
-function celsiusToFahrenheit (temp) {
+function celsiusToFahrenheit (temp){
     return (temp * 9 / 5 + 32)
 }
 
@@ -70,6 +70,14 @@ function fahrenheitToKelvin (temp){
 // 8. Create a function called lesser that takes two numbers as
 // arguments and returns the lesser of them. This function should
 // use an if/else statement.
+
+function lesser (number1,number2){
+    if (number1 > number2) {
+        return number2
+}   else {
+        return number1
+    }
+}
 
 // 9. Create a function called multigreeting that takes a name
 // and a language code and returns a version of "Hello, <name>!"
