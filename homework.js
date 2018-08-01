@@ -25,7 +25,7 @@ function greeting (name){
 function isOdd (number){
     if number % 2 === 1 {
         return true
-}   else {
+    }else {
         return false
     }
 }
@@ -36,7 +36,7 @@ function isOdd (number){
 function isEven (number){
     if number % 2 === 0 {
         return true
-}   else {
+    }else {
     }
 }
 
@@ -74,7 +74,7 @@ function fahrenheitToKelvin (temp){
 function lesser (number1,number2){
     if (number1 > number2) {
         return number2
-}   else {
+    }else {
         return number1
     }
 }
@@ -90,6 +90,20 @@ function lesser (number1,number2){
 // eo - Saluton, <name>!
 //
 // If any other language code is used, return nothing.
+
+function multigreeting (name,language){
+    if (language === "en") {
+        return "Hello, " + name + "!"
+    }else if (language === "es") {
+        return "¡Hola, " + name + "!"
+    }else if (language === "fr") {
+        return "Bonjour, " + name + "!"
+    }else if (language === "eo") {
+        return "Saluton, " + name + "!"
+    }else {
+        return undefined
+    }
+}
 
 // 10. Create a function, howOld, that takes a birthdate and a another
 // date (the "current date") and returns how many years old the person
