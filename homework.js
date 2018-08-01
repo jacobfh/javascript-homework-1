@@ -22,8 +22,23 @@ function greeting (name){
 // 4. Create a function called isOdd that, given a number, will
 // return true if it is odd and false if it is not.
 
+function isOdd (number){
+    if number % 2 === 1 {
+        return true
+}   else {
+        return false
+    }
+}
+
 // 5. Create a function called isEven that, given a number, will
 // return true if it is even and false if it is not.
+
+function isEven (number) {
+    if number % 2 === 0 {
+        return true
+}   else {
+    }
+}
 
 // 6. Create a function called fahrenheitToCelsius that takes a
 // Fahrenheit temperature as an argument and returns the
