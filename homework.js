@@ -74,8 +74,10 @@ function fahrenheitToKelvin (temp){
 function lesser (number1,number2){
     if (number1 > number2) {
         return number2
-    }else {
+    }else if {
         return number1
+    }else {
+        return undefined
     }
 }
 
